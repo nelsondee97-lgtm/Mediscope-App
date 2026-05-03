@@ -21,7 +21,7 @@ st.markdown("AI-powered support tool for early cancer risk assessment")
 st.markdown("---")
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("cancer-model.pkl")
 
 # Sidebar
 st.sidebar.header("📋 Patient Info")
