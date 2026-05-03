@@ -2,9 +2,9 @@ import streamlit as st
 import joblib
 import numpy as np
 
-st.set_page_config(page_title="Mediscope", layout="centered")
+st.set_page_config(page_title="CliniPredict", layout="centered")
 
-st.title("🧠 Mediscope-App")
+st.title("🧠 CliniPredict-Onco-App")
 st.markdown(
     """
     <style>
